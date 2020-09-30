@@ -1,0 +1,39 @@
+.jumbotron {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding: 0;
+    margin: 0;
+}
+
+.jumbotronContainer {
+    background: #585858;
+    color: rgb(221, 218, 218);
+    height: 100vh;
+    padding: 30;
+    margin: 30;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.jumbotronContainer h1 {
+    font-size: 65px; 
+}
+
+.jumbotronContainer p {
+    font-size: 20px;  
+}
+
+.jumbotronDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+    padding: 40;
+}
+}
