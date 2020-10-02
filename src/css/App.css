@@ -40,7 +40,7 @@
 }
 
 .aboutContainer {
-    height: 450px;
+    height: 50vh;
 }
 
 .aboutDiv {
@@ -51,7 +51,7 @@
 }
 
 .resumeContainer {
-    height: 450px;
+    height: 50vh;
     background-color: lightblue;
 }
 
