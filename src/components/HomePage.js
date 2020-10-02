@@ -1,13 +1,9 @@
 import React from 'react';
 import { Jumbotron, Container } from 'react-bootstrap';
-import Navbars from './Navbars';
 
-const HomePage = () => {
-
-  return (
+const HomePage = () =>  (
     <>
       <Jumbotron fluid >
-        <Navbars />
         <Container fluid className='jumbotronContainer'>
           <div className='jumbotronDiv'>
             <h1>Melody Lo</h1>
@@ -19,7 +15,6 @@ const HomePage = () => {
       </Jumbotron>
     </>
 
-  )
-}
+  );
 
 export default HomePage;

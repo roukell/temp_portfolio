@@ -1,10 +1,10 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 
-const Navbars = () => {
-    return (
+const Navbars = () =>
+    (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='stickyNavbar'>
                 <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -19,7 +19,7 @@ const Navbars = () => {
                 </Navbar.Collapse>
             </Navbar>
         </>
-    )
-}
+    );
+
 
 export default Navbars;
