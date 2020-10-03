@@ -1,5 +1,5 @@
 .jumbotron {
-    min-height: 100vh;
+    height: 70vh;
     background-repeat: no-repeat;
     background-position: right top;
     padding: 0;
@@ -28,7 +28,7 @@
 
 .jumbotronDiv {
     position: relative;
-    top: 50%;
+    top: 32.5%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -40,7 +40,7 @@
 }
 
 .aboutContainer {
-    height: 50vh;
+    height: 89vh;
 }
 
 .aboutDiv {
@@ -60,6 +60,27 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.footerContainer {
+    height: 5.75vh;
+    background-color: lightslategray;
+}
+
+.footerDiv {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    text-align: center;
+}
+
+.projectTitle {
+    margin: 15px;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
 }
 
 @media (min-width: 576px) {

@@ -17,7 +17,7 @@ const About = () => (
                             I am a full stack web developer mainly using React.
                     </p>
                         <p>
-                            typr more here
+                            type more here
                     </p>
                     </Col>
                 </Row>
