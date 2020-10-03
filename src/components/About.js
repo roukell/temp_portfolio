@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Col, Image, Row, Carousel } from 'react-bootstrap';
+import { Container, Col, Row, Carousel } from 'react-bootstrap';
 
 function About() {
     const [index, setIndex] = useState(0);
