@@ -69,6 +69,18 @@ She is highly motivated to develop interactive websites that enhances the user e
 Her goal to develop creative and functional website experiences for people, utilising latest technologies and innovative problem solving mindset.
                             </p>
                             <br />
+                            <ul class="list-inline dev-icons">
+                            <li class="list-inline-item">
+                            <a href="https://github.com/roukell" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/64/github.png" alt='github'/></a>
+                            </li>
+                            <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/yilingmelodylo/" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/cute-clipart/64/000000/linkedin.png" alt='linkedin'/></a>
+                            </li>
+                            <li class="list-inline-item">
+                            <a href="mailto:yiling.melody.lo@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/cute-clipart/64/000000/email.png" alt='email'/></a>
+                            </li>       
+                            </ul>
+
                             <section class="resume-section" id="skills">
                                 <div class="resume-section-content">
                                     <h3 class="subheading mb-3">Programming Languages & Tools</h3>
