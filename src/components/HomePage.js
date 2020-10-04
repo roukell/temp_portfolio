@@ -54,7 +54,9 @@ const HomePage = () => (
           <h1>Full Stack Web Developer experience in 
              <br/>
             designing and developing web applications
+            <br/>
           </h1>
+
         </div>
       </Container>
     </Jumbotron>
