@@ -23,7 +23,7 @@ const HomePage = () => (
 								},
 								"move": {
 									"direction": "right",
-									"speed": 0.1
+									"speed": 0.3
 								},
 								"size": {
 									"value": 1.5

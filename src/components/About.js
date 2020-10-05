@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import { Container, Col, Row, Carousel, Card, Tooltip, OverlayTrigger } from 'react-bootstrap';
-import portfolioImg from '../img/portfolio.jpg';
-import turtleImg from '../img/turtle.jpeg';
 
 function About() {
     const [index, setIndex] = useState(0);
@@ -18,25 +16,22 @@ function About() {
                     <div>
                         <img
                             className="d-block w-90"
-                            src={portfolioImg}
+                            src='https://raw.githubusercontent.com/roukell/temp_portfolio/master/public/img/portfolio.jpg'
                             alt="portfolioImg"
                         />
                         <Carousel.Caption>
-                            {/* <h3>First slide label</h3> */}
-                            <p>Melody at a shopping mall</p>
+                            <p style={{color:'black'}}>Melody at a shopping mall</p>
                         </Carousel.Caption>
                     </div>
                 </Carousel.Item>
 
-
                 <Carousel.Item>
                     <img
                         className="d-block w-90"
-                        src={turtleImg}
+                        src='https://raw.githubusercontent.com/roukell/temp_portfolio/master/public/img/turtle.jpeg'
                         alt="turtleImg"
                     />
                     <Carousel.Caption>
-                        {/* <h3>Second slide label</h3> */}
                         <p>Photographed by Melody while diving in Hawaii</p>
                     </Carousel.Caption>
                 </Carousel.Item>
