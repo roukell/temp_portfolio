@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Col, Row, Carousel, Card, Tooltip, OverlayTrigger } from 'react-bootstrap';
+import portfolioImg from '../img/portfolio.jpg';
+import turtleImg from '../img/turtle.jpeg';
 
 function About() {
     const [index, setIndex] = useState(0);
@@ -11,41 +13,31 @@ function About() {
     return (
         <div>
             <Carousel activeIndex={index} onSelect={handleSelect} className='carouselContainer'>
+                
                 <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="holder.js/800x400?text=First slide&bg=373940"
-                        alt="First slide"
+                    <div>
+                    <img 
+                        className="d-block w-90"
+                        src={portfolioImg}
+                        alt="portfolioImg"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        {/* <h3>First slide label</h3> */}
+                        <p>Melody at a shopping mall</p>
                     </Carousel.Caption>
+                     </div>
                 </Carousel.Item>
+               
+
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
-                        src="holder.js/800x400?text=Second slide&bg=282c34"
-                        alt="Second slide"
+                        className="d-block w-90"
+                        src={turtleImg}
+                        alt="turtleImg"
                     />
-
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="holder.js/800x400?text=Third slide&bg=20232a"
-                        alt="Third slide"
-                    />
-
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
+                        {/* <h3>Second slide label</h3> */}
+                        <p>Photographed by Melody while diving in Hawaii</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
