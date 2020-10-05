@@ -13,21 +13,21 @@ function About() {
     return (
         <div>
             <Carousel activeIndex={index} onSelect={handleSelect} className='carouselContainer'>
-                
+
                 <Carousel.Item>
                     <div>
-                    <img 
-                        className="d-block w-90"
-                        src={portfolioImg}
-                        alt="portfolioImg"
-                    />
-                    <Carousel.Caption>
-                        {/* <h3>First slide label</h3> */}
-                        <p>Melody at a shopping mall</p>
-                    </Carousel.Caption>
-                     </div>
+                        <img
+                            className="d-block w-90"
+                            src={portfolioImg}
+                            alt="portfolioImg"
+                        />
+                        <Carousel.Caption>
+                            {/* <h3>First slide label</h3> */}
+                            <p>Melody at a shopping mall</p>
+                        </Carousel.Caption>
+                    </div>
                 </Carousel.Item>
-               
+
 
                 <Carousel.Item>
                     <img
@@ -66,10 +66,10 @@ function About() {
                                     <br />
                                     She enjoys traveling, cooking, diving, and doing weight training.
                                     <br />
-                                    She loves animation, digital and graphic design, and aquarium.  
+                                    She loves animation, digital and graphic design, and aquarium.
                                     <br />
                                     <br />
-                                    Thank you for your time! Feel free to connect her on Linkedin! 
+                                    Thank you for your time! Feel free to connect her on Linkedin!
                                 </p>
                                 <br />
                                 <ul class="list-inline dev-icons">
