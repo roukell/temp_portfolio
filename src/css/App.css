@@ -94,8 +94,13 @@
     text-align: center;
 }
 
+.projectDiv {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .projectImg {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
